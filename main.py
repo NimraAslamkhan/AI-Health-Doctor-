@@ -9,7 +9,7 @@ app = Flask(__name__)
 # load databasedataset===================================
 sym_des = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\medications.csv")
 precautions = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\precautions_df.csv")
-workout = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\medications.csv")
+workout = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\workout_df.csv")
 description = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\description.csv")
 medications = pd.read_csv(r'C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\medications.csv')
 diets = pd.read_csv(r"C:\Users\123\PycharmProjects\Medical recomendation system\Datasets\diets.csv")
